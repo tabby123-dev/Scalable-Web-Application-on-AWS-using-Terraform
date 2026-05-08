@@ -1,0 +1,9 @@
+app_name           = "web-challenge-day26"
+environment        = "dev"
+ami_id             = "ami-0eb38b817b93460ac"   # Amazon Linux 2023 — us-east-1
+vpc_id             = "vpc-09c2918532eb101f1"
+public_subnet_ids  = ["subnet-0ee85556bf17fbcaa", "subnet-026e06f1b4172e999"]
+private_subnet_ids = ["subnet-029b5a1470f868804", "subnet-04881e4515924845d"]
+min_size           = 1
+max_size           = 3
+desired_capacity   = 2
